@@ -1,6 +1,10 @@
 .other_items {
   text-align: center;
 }
+.other_items a {
+  color: #000000 !important;
+  text-decoration: none;
+}
 .other_items__title_set h1 {
   text-align: center;
   width: 70%;

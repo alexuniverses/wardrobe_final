@@ -379,6 +379,9 @@ body .btn:focus {
   color: #111111;
   background: #ffffff !important;
   background: url(./../img/header/counter_arrow.png) center no-repeat #fff !important;
+  border: 1px solid #b8b8b8;
+  border-bottom: 4px solid #b8b8b8;
+  padding-bottom: 40px;
 }
 .header-items__panel h1 {
   line-height: 40px;
@@ -792,6 +795,10 @@ hr {
 }
 .other_items {
   text-align: center;
+}
+.other_items a {
+  color: #000000 !important;
+  text-decoration: none;
 }
 .other_items__title_set h1 {
   text-align: center;
