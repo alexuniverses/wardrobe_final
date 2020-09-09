@@ -1,0 +1,66 @@
+.footer
+    h3
+    h3:first-child
+        font-size: 24px
+    h3:last-child
+        font-size: 18px
+        font-weight: lighter
+    h4
+        font-size: 16px
+        font-weight: lighter
+    h5
+        padding-top: 10px
+        font-size: 16px
+    &__social_bar
+        padding-top: 20px
+        padding-bottom: 15px
+        display: flex
+        flex-direction: row
+        img 
+            margin: 10px
+            width: 30px
+            height: 30px
+        img:hover
+            transition: 0.7s
+            transform: scale(1.2)
+            width: 34px
+            height: 34px
+    &__tel_set
+        display: flex
+        flex-direction: column
+        img
+            margin-right: 7px
+            max-width: 20px
+            max-height: 20px
+        a
+            color: #000000ee
+#footer_btn
+    max-width: 231px
+    background-color: #ffffff
+    border: 2px solid #ffe95a
+    border-radius: 5px
+    font-weight: 700
+    font-size: 16px
+#footer_btn:hover
+    background-color: #ffe95a
+@media screen and ( max-width: 807px )
+    .footer
+        &__tel_set
+            font-size: 12px
+@media screen and ( max-width: 767px )
+    .footer
+        text-align: center
+        &__social_bar
+            display: flex
+            flex-direction: row
+            justify-content: center
+    #footer_btn
+        margin-top: 30px
+        max-width: 231px
+        background-color: #ffffff
+        border: 2px solid #ffe95a
+        border-radius: 5px
+        font-weight: 700
+        font-size: 16px
+    
+    
