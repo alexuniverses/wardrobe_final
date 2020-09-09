@@ -28,10 +28,18 @@
 
 .dropdown-menu {
   background: #281001;
+  border: none;
 }
 .dropdown-menu a {
   font-size: 14px;
   padding: 0;
+  border: none;
+}
+.dropdown-menu a:before {
+  content: ">";
+  padding-left: 10px;
+  padding-right: 7px;
+  color: red;
 }
 
 .dropdown-menu:hover a {
