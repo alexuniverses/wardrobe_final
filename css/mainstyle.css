@@ -268,6 +268,27 @@ body .btn:focus {
   border-bottom: 2px solid #ffffff;
 }
 
+#dropdownMenuButton {
+  padding-top: 9.5px;
+  box-shadow: none;
+  color: #ffffff;
+  background: transparent;
+  border-bottom: 2px solid #ffffff;
+  border-radius: 0px;
+}
+
+.dropdown-menu {
+  background: #281001;
+}
+.dropdown-menu a {
+  font-size: 14px;
+  padding: 0;
+}
+
+.dropdown-menu:hover a {
+  background: #281001;
+}
+
 #header_nav_btn {
   max-width: 185px;
   height: 30px;
@@ -604,6 +625,7 @@ hr {
 }
 
 #shop_item_btn {
+  margin-top: 20px;
   max-width: 224px;
   width: 100%;
   max-height: 48px;
@@ -1027,6 +1049,14 @@ hr {
 }
 .footer__tel_set a {
   color: #000000ee;
+}
+.footer__offer {
+  padding-top: 55px;
+  text-align: center;
+}
+.footer__offer span {
+  font-size: 14px !important;
+  color: #535252 !important;
 }
 
 #footer_btn {

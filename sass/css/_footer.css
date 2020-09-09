@@ -42,6 +42,14 @@
 .footer__tel_set a {
   color: #000000ee;
 }
+.footer__offer {
+  padding-top: 55px;
+  text-align: center;
+}
+.footer__offer span {
+  font-size: 14px !important;
+  color: #535252 !important;
+}
 
 #footer_btn {
   max-width: 231px;

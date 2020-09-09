@@ -17,6 +17,27 @@
   border-bottom: 2px solid #ffffff;
 }
 
+#dropdownMenuButton {
+  padding-top: 9.5px;
+  box-shadow: none;
+  color: #ffffff;
+  background: transparent;
+  border-bottom: 2px solid #ffffff;
+  border-radius: 0px;
+}
+
+.dropdown-menu {
+  background: #281001;
+}
+.dropdown-menu a {
+  font-size: 14px;
+  padding: 0;
+}
+
+.dropdown-menu:hover a {
+  background: #281001;
+}
+
 #header_nav_btn {
   max-width: 185px;
   height: 30px;
