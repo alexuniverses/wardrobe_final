@@ -25,7 +25,7 @@
   height: 30px;
 }
 .footer__social_bar img:hover {
-  transition: 0.7s;
+  transition: 0.3s;
   transform: scale(1.2);
   width: 34px;
   height: 34px;

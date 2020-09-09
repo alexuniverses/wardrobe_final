@@ -56,12 +56,27 @@
           <li class="nav-item m-2 ml-3 mr-3"><a class="nav-link">Примеры работ</a></li>
           <li class="nav-item m-2 ml-3 mr-3"><a class="nav-link">Калькулятор</a></li>
           <li class="nav-item m-2 ml-3 mr-3"><a class="nav-link">Отзывы клиентов</a></li>
-          <li class="nav-item m-2 ml-3 mr-3"><button type="button" class="btn" id="header_nav_btn">Пригласить
+          <li class="nav-item m-2 mt-3 ml-3 mr-3"><button type="button" class="btn" data-toggle="modal"
+              data-target="#header_modal" id="header_nav_btn">Пригласить
               дизайнера</button></li>
-          <li class="nav-item m-1 ml-2 mr-2" id="navbar_tel_set"><a class="nav-link"><span>Или позвоните
+          <li class="nav-item pb-0 ml-2 mr-2" id="navbar_tel_set"><a class="nav-link"><span>Или позвоните
                 нам</span><span>+375 (29) 655-16-33</span></a></li>
         </ul>
       </nav>
+      <!-- Modal -->
+      <div class="modal fade" id="header_modal" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+            <h1>Вызвать дизайнера</h1>
+            <span>Для того что бы согласовать с Вами время<br>прибытия дизайнера оставьте пожалуйста<br>свой номер
+              телефона. Спасибо!</span>
+            <input type="tel" class="form-control" placeholder="Ваш номер телефона">
+            <button type="button" class="btn" id="header_modal_btn">Вызвать дизайнера</button>
+          </div>
+        </div>
+      </div>
       <!--Header items-->
       <div class="row header-items">
         <div class="col-lg-7 col-md-12 header-items__left">
@@ -82,7 +97,7 @@
             </div>
             <div class="col-md-6 order-2">
               <h2>Это БЕСПЛАТНО!</h2>
-              <input type="tel" placeholder="Введите Ваш телефон">
+              <input type="tel" class="form-control" placeholder="Введите Ваш телефон">
               <button type="button" class="btn">Получить дизайн-проект</button>
             </div>
           </div>
@@ -118,8 +133,25 @@
     <div class="container">
       <div class="row">
         <div class="col-md">
-          <img class="img-fluid d-none d-lg-block d-md-none" src="img/banner/installment-wide.webp">
-          <img class="img-fluid d-lg-none d-md-block m-auto" src="img/banner/installment-square.webp">
+          <a data-toggle="modal" data-target="#banner_modal"><img class="img-fluid d-none d-lg-block d-md-none"
+              src="img/banner/installment-wide.webp"></a>
+          <a data-toggle="modal" data-target="#banner_modal"><img class="img-fluid d-lg-none d-md-block m-auto"
+              src="img/banner/installment-square.webp"></a>
+          <!--Banner_Modal-->
+          <div class="modal fade" id="banner_modal" tabindex="-1" role="dialog" aria-labelledby="Label"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+                <h1>Заказать звонок</h1>
+                <span>Введите Ваше имя и номер телефона и наши специалисты с удовольствием перезвонят Вам</span>
+                <input type="text" class="form-control" placeholder="Ваше имя">
+                <input type="tel" class="form-control" placeholder="Ваш номер телефона">
+                <button type="button" class="btn" id="banner_modal_btn">Заказать звонок</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -166,32 +198,97 @@
             </li>
           </ul>
         </div>
-        <hr>
-        <div class="row">
-          <div class="col-md-12 d-block">
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link m-1 shop__pills_title"><span>Вид фасада:</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link m-1" href="#">Пескоструй</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link m-1" href="#">ДСП</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link m-1" href="#">Фотопечать</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link m-1" href="#">Зеркальные</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link m-1" href="#">Стекло</a>
-              </li>
-            </ul>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12 d-block">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link m-1 shop__pills_title"><span>Вид фасада:</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-1" href="#">Пескоструй</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-1" href="#">ДСП</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-1" href="#">Фотопечать</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-1" href="#">Зеркальные</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-1" href="#">Стекло</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Товары сайта-->
+      <div class="row shop-items">
+        <div class="col-xl-4 col-lg-4 col-md-6 order-1">
+          <div class="row m-3 pt-2 shop-items__item">
+            <div class="col-md-12">
+              <img class="img-fluid" src="img/shop/96116f9d8186e71_600x400.jpg">
+              <div class="row">
+                <div class="col-md-6 pt-4 pl-4 pr-4">
+                  <h3>Модель KUP -<br>000</h3>
+                </div>
+                <div class="col-md-6 p-3">
+                  <div class="shop-items__item_installment">
+                    <span>в рассрочку</span>
+                    <span>до 6 месяцев</span>
+                  </div>
+                </div>
+              </div>
+              <h4 class="pl-2">от 1440 руб</h4>
+              <button type="button" class="btn float-right" id="shop_item_btn">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 order-2">
+          <div class="row m-3 pt-2 shop-items__item">
+            <div class="col-md-12">
+              <img class="img-fluid" src="img/shop/f42569bb0730fc6_600x400.jpg">
+              <div class="row">
+                <div class="col-md-6 pt-4 pl-4 pr-4">
+                  <h3>Модель KUP -<br>000</h3>
+                </div>
+                <div class="col-md-6 p-3">
+                  <div class="shop-items__item_installment">
+                    <span>в рассрочку</span>
+                    <span>до 6 месяцев</span>
+                  </div>
+                </div>
+              </div>
+              <h4 class="pl-2">от 1440 руб</h4>
+              <button type="button" class="btn float-right" id="shop_item_btn">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 order-3">
+          <div class="row m-3 pt-2 shop-items__item">
+            <div class="col-md-12">
+              <img class="img-fluid" src="img/shop/43025e39fbb0bde_600x400.jpg">
+              <div class="row">
+                <div class="col-md-6 pt-4 pl-4 pr-4">
+                  <h3>Модель KUP -<br>000</h3>
+                </div>
+                <div class="col-md-6 p-3">
+                  <div class="shop-items__item_installment">
+                    <span>в рассрочку</span>
+                    <span>до 6 месяцев</span>
+                  </div>
+                </div>
+              </div>
+              <h4 class="pl-2">от 1440 руб</h4>
+              <button type="button" class="btn float-right" id="shop_item_btn">Подробнее</button>
+            </div>
           </div>
         </div>
       </div>
+      <button type="button" class="btn mx-auto" id="shop_btn">Показать больше</button>
+    </div>
   </section>
   <section class="catalog">
     <div class="container">
@@ -203,7 +300,7 @@
           <div class="catalog__right_bar_section">
             <h3>Заполните форму</h3>
             <h4> и вы сможете сразу просмотреть<br>и скачать наш каталог</h4>
-            <input type="text" placeholder="Введите ваш телефон">
+            <input type="text" class="form-control" placeholder="Введите ваш телефон">
             <button type="button" class="btn" id="catalog_btn">Скачать каталог</button>
             <h5>Каталог будет сразу доступен<br>после ввода телефона</h5>
           </div>
@@ -238,7 +335,7 @@
             <h2>Прихожие</h2><img class="img-fluid" src="img/other_items/5+.png">
           </div>
         </div>
-        <input type="text" placeholder="Введите ваш телефон">
+        <input type="text" class="form-control" placeholder="Введите ваш телефон">
         <button type="button" class="btn" id="other_items_btn">Перезвоните мне</button>
       </div>
     </div>
@@ -279,7 +376,8 @@
           <h2>Вы пользуетесь и<br>рекомендуете нам друзьям</h2>
         </div>
       </div>
-      <button type="button" class="btn d-block mx-left ml-4" id="process_btn">Отправить заявку</button>
+      <button type="button" class="btn d-block mx-left ml-4" data-toggle="modal" data-target="#banner_modal"
+        id="process_btn">Отправить заявку</button>
     </div>
   </section>
   <section class="review">
@@ -354,6 +452,16 @@
     </div>
   </section>
   <section class="contacts">
+    <div class="container">
+      <div class="row contacts__address_block">
+        <div class="col-md">
+          <h1>Контакты</h1>
+          <h2>Минск, ул. Тепличная, 9<br>
+            тел.:</h2>
+          <span><a href="tel:+375296551633">+375 (29) 655-16-33</a></span>
+        </div>
+      </div>
+    </div>
     <a href="https://yandex.by/maps/-/CKC8BG2Q" id="Map_link_pc">
       <img class="img-fluid" src="img/map/map-pc.jpg">
     </a>
@@ -383,11 +491,13 @@
         <div class="col-md">
           <div class="row">
             <div class="col-md footer__tel_set">
-              <div><img class="img-fluid" src="img/logo_panel/A1.png"><span><a href="tel:+375296551633">+375 (29) 655-13-33</a></span></div>
-              <div><img class="img-fluid" src="img/logo_panel/mts.svg"><span><a href="tel:+375292885385">+375 (29) 288-53-85</a></span></div>
+              <div><img class="img-fluid" src="img/logo_panel/A1.png"><span><a href="tel:+375296551633">+375 (29)
+                    655-13-33</a></span></div>
+              <div><img class="img-fluid" src="img/logo_panel/mts.svg"><span><a href="tel:+375292885385">+375 (29)
+                    288-53-85</a></span></div>
             </div>
             <div class="col-md order-lg-2">
-              <button type="button" class="btn" id="footer_btn">Заказать звонок</button>
+              <button type="button" class="btn" data-toggle="modal" data-target="#banner_modal" id="footer_btn">Заказать звонок</button>
             </div>
           </div>
         </div>

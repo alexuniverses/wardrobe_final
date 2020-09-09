@@ -19,10 +19,11 @@
 
 #header_nav_btn {
   max-width: 185px;
-  height: 45px;
+  height: 30px;
   background: #ffeb10;
   color: #000;
   font-size: 14px;
+  font-weight: 400;
 }
 
 #navbar_tel_set a {
@@ -162,7 +163,7 @@
 }
 @media screen and (max-width: 768px) {
   .header-items__panel {
-    margin-top: 20px;
+    margin-top: 5px;
     background: #ffffff !important;
     background: none !important;
   }
@@ -171,6 +172,9 @@
   }
   .header-items__panel p {
     color: #ffffff;
+  }
+  .header-items__panel h2 {
+    padding-top: 20px;
   }
 }
 @media screen and (max-width: 932px) {

@@ -15,10 +15,26 @@
 
 hr {
   border: 0;
+  clear: both;
+  display: block;
   width: 100%;
   background-color: #bfaa7e;
   height: 0.5px;
 }
+
+#shop_btn {
+  width: 231px;
+  margin-top: 50px;
+  background-color: #ffe010;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 5px #e0c405;
+}
+
+#shop_btn:hover {
+  background-color: #ffe95a;
+}
+
 .nav-pills span {
   font-size: 16px;
   font-weight: 700;
@@ -36,4 +52,73 @@ hr {
   border: 1px solid #bfaa7e;
   background: #bfaa7e;
   border-radius: 20px;
+}
+
+.shop-items {
+  margin-top: 60px;
+}
+.shop-items__item {
+  padding-bottom: 15px;
+}
+.shop-items__item h3 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  color: #bfaa7e;
+}
+.shop-items__item h4 {
+  text-align: left;
+  font-size: 19px;
+  font-weight: 700;
+}
+.shop-items__item:hover {
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.26);
+}
+.shop-items__item_installment {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 0 5px 0 10px;
+  background: #f1ede5;
+  position: relative;
+  z-index: 1;
+}
+.shop-items__item_installment:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(135deg);
+  left: -5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  background-color: #f1ede5;
+  z-index: 0;
+}
+.shop-items__item_installment span:first-child {
+  font-size: 16px;
+}
+.shop-items__item_installment span:last-child {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#shop_item_btn {
+  max-width: 224px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+  border-radius: 0px;
+  background-color: #ddc99f;
+  cursor: pointer;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.1s ease-out;
+}
+
+#shop_item_btn:hover {
+  background-color: #a05835;
+  color: #fff;
 }

@@ -2,10 +2,14 @@ body
     margin: 0 auto
     font-family: Roboto-Regular
     font-size: 16px
-    input
-        background-color: #f4f4f4
-    input:active
-        border: 1px solid #e0c405 !important
+    .form-control
+        background-color: #ffffff
+        border: none
+    .form-control:focus
+        border: 3px solid #ffe010 !important
+        box-shadow: none
+    .btn:focus
+        box-shadow: none
 .container
     max-width: 1240px
     margin: 0 auto
@@ -23,6 +27,7 @@ body
     padding-bottom: 100px
 .shop
     margin-top: 60px
+    padding-bottom: 60px
 .catalog
     background: url(./../img/catalog/catalog_bg.jpg)
     background-size: cover
@@ -48,6 +53,7 @@ body
     margin-top: 90px
 @media screen and ( max-width: 768px )
     .header
-        background: url(./../img/) url(./../img/header/header_bg.png) center top 40%
+        background: url(./../img/header/header_bg.png) no-repeat center top 
+        background-size: cover
     
 
