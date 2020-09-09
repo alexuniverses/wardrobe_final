@@ -43,7 +43,8 @@ body .btn:focus {
 }
 
 .shop {
-  margin-top: 60px;
+  background: #f4f4f4;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -381,6 +382,7 @@ body .btn:focus {
   background: url(./../img/header/counter_arrow.png) center no-repeat #fff !important;
   border: 1px solid #b8b8b8;
   border-bottom: 4px solid #b8b8b8;
+  border-radius: 5px;
   padding-bottom: 40px;
 }
 .header-items__panel h1 {

@@ -43,7 +43,8 @@ body .btn:focus {
 }
 
 .shop {
-  margin-top: 60px;
+  background: #f4f4f4;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 

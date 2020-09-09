@@ -101,6 +101,7 @@
   background: url(./../img/header/counter_arrow.png) center no-repeat #fff !important;
   border: 1px solid #b8b8b8;
   border-bottom: 4px solid #b8b8b8;
+  border-radius: 5px;
   padding-bottom: 40px;
 }
 .header-items__panel h1 {
