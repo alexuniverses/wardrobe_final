@@ -1,0 +1,104 @@
+s {
+  color: #aaaaaa;
+}
+
+.kitchen_quiz h1 {
+  padding-bottom: 60px;
+  text-align: center;
+  font-weight: 700;
+}
+.kitchen_quiz__material_type img {
+  margin-top: 130px;
+}
+.kitchen_quiz__material_type h2 {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  color: #333333;
+  align-items: center;
+}
+.kitchen_quiz__material_type h2:before {
+  content: "1";
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  background: #ffe010;
+  justify-content: center;
+  align-items: center;
+}
+.kitchen_quiz__material_type .form {
+  display: flex;
+  flex-direction: column;
+}
+.kitchen_quiz__form img {
+  max-width: 255px;
+  max-height: 255px;
+  margin-top: 70px;
+}
+.kitchen_quiz__form h2 {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  color: #333333;
+  align-items: center;
+}
+.kitchen_quiz__form h2:before {
+  content: "2";
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  background: #ffe010;
+  justify-content: center;
+  align-items: center;
+}
+.kitchen_quiz__form .form-check {
+  margin-left: 55px;
+  margin-bottom: 12px;
+}
+.kitchen_quiz__form .form-check label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.kitchen_material_form .form-check {
+  margin-left: 55px;
+  margin-bottom: 12px;
+}
+.kitchen_material_form .form-check label {
+  display: flex;
+  flex-direction: column;
+}
+.kitchen_material_form .form-check label span:first-child {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.quiz_calc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.quiz_calc h5 {
+  padding-bottom: 10px;
+  padding-top: 140px;
+  font-size: 16px;
+}
+.quiz_calc input {
+  text-align: center;
+  max-width: 55px;
+}
+.quiz_calc__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.quiz_calc__input p {
+  margin: 10px;
+}

@@ -1,0 +1,101 @@
+.logo_panel {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.logo_panel h3 {
+  margin-right: 120px;
+  font-size: 18px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.logo_panel__tel_set {
+  margin-right: 30px;
+}
+.logo_panel__tel_set img {
+  max-width: 20px;
+  max-height: 20px;
+}
+.logo_panel__align {
+  color: #ffffff;
+}
+.logo_panel__align a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.logo_panel__align span {
+  font-size: 20px;
+}
+.logo_panel__align span:last-child {
+  color: #ffeb10 !important;
+}
+.logo_panel__social_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-brand span:first-child {
+  font-size: 24px;
+}
+
+.navbar-brand span:last-child {
+  color: #ffeb10 !important;
+  font-family: Roboto-Slab;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#logo_panel_btn {
+  justify-self: flex-end;
+  margin-top: 10px;
+  max-height: 38px;
+  max-width: 175px;
+  color: #ffeb10;
+  border-radius: 5px;
+  border: 2px solid #ffeb10;
+}
+
+#logo_panel_btn:hover {
+  background: #ffeb10;
+  color: #281001;
+  border-radius: 5px;
+  border: 2px solid #ffeb10;
+}
+
+#instagram_mobile {
+  width: 35px;
+  height: 35px;
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  #instagram_mobile {
+    display: none;
+  }
+  #instagram_mobile img {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo_panel h3 {
+    margin-right: 0px;
+    display: none;
+  }
+  .logo_panel__tel_set span {
+    margin-right: 0px;
+    font-size: 16px;
+  }
+  .logo_panel__tel_set {
+    padding-left: 20px;
+  }
+
+  #instagram_mobile {
+    display: block;
+    align-self: center;
+  }
+}
+@media screen and (max-width: 872px) {
+  #logo_panel_btn {
+    display: none;
+  }
+}

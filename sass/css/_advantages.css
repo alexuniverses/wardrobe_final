@@ -1,0 +1,14 @@
+.advantages__icons_set {
+  text-align: center;
+}
+.advantages__icons_set h4 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages {
+    display: none;
+  }
+}

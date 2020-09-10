@@ -1,0 +1,11 @@
+.partners h1 {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.partners__img_container img {
+  margin: 0 auto;
+  max-width: 190px;
+  max-width: 100px;
+}
