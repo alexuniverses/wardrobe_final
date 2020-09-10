@@ -33,6 +33,10 @@ s {
   display: flex;
   flex-direction: column;
 }
+.kitchen_quiz__form {
+  display: flex;
+  justify-content: center;
+}
 .kitchen_quiz__form img {
   max-width: 255px;
   max-height: 255px;
@@ -101,4 +105,25 @@ s {
 }
 .quiz_calc__input p {
   margin: 10px;
+}
+
+#quiz_kitchen_btn {
+  margin-top: 70px;
+  text-align: center;
+  width: 231px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #ffe010;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 5px #e0c405;
+  cursor: pointer;
+}
+
+#quiz_kitchen_btn:hover {
+  background-color: #ffea5f;
+}
+
+#quiz_kitchen_btn:active {
+  box-shadow: 0 5px #ffe010;
 }
