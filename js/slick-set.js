@@ -2,7 +2,7 @@ $('.multiple-items').slick({
     infinite: true,
     dots: true,
     slidesToShow: 6,
-    slidesToScroll: 4,
+    slidesToScroll: 2,
     responsive: [
 	    {
 	      breakpoint: 768,
@@ -13,7 +13,7 @@ $('.multiple-items').slick({
 	    {
 	      breakpoint: 480,
 	      settings: {
-	        slidesToShow: 1,
+	        slidesToShow: 2,
 	      }
 	    }
     ]

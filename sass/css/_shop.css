@@ -58,6 +58,7 @@ hr {
   margin-top: 60px;
 }
 .shop-items__item {
+  background: #ffffff;
   padding-bottom: 15px;
 }
 .shop-items__item h3 {

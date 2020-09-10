@@ -54,6 +54,7 @@
   max-height: 35px;
   box-shadow: none;
   padding-bottom: 45px;
+  background-color: #ffe010 !important;
 }
 .modal-content .close span {
   right: 5px;
@@ -63,7 +64,7 @@
   margin: 0;
 }
 .modal-content .close:hover {
-  background-color: #ffe010;
+  background: #e0c405;
 }
 .modal-content .close:focus {
   box-shadow: none;

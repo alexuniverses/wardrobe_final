@@ -12,7 +12,7 @@ body .form-control {
   border: none;
 }
 body .form-control:focus {
-  border: 3px solid #ffe010 !important;
+  border: 2px solid #ffe010 !important;
   box-shadow: none;
 }
 body .btn:focus {
@@ -34,6 +34,7 @@ body .btn:focus {
 }
 
 .advantages {
+  background: #ffffff;
   margin-top: 120px;
 }
 
@@ -58,6 +59,7 @@ body .btn:focus {
 }
 
 .other_items {
+  background: #ffffff !important;
   margin-top: 70px;
 }
 

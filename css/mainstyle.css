@@ -12,7 +12,7 @@ body .form-control {
   border: none;
 }
 body .form-control:focus {
-  border: 3px solid #ffe010 !important;
+  border: 2px solid #ffe010 !important;
   box-shadow: none;
 }
 body .btn:focus {
@@ -34,6 +34,7 @@ body .btn:focus {
 }
 
 .advantages {
+  background: #ffffff;
   margin-top: 120px;
 }
 
@@ -58,6 +59,7 @@ body .btn:focus {
 }
 
 .other_items {
+  background: #ffffff !important;
   margin-top: 70px;
 }
 
@@ -167,6 +169,7 @@ body .btn:focus {
   max-height: 35px;
   box-shadow: none;
   padding-bottom: 45px;
+  background-color: #ffe010 !important;
 }
 .modal-content .close span {
   right: 5px;
@@ -176,7 +179,7 @@ body .btn:focus {
   margin: 0;
 }
 .modal-content .close:hover {
-  background-color: #ffe010;
+  background: #e0c405;
 }
 .modal-content .close:focus {
   box-shadow: none;
@@ -507,19 +510,6 @@ body .btn:focus {
   box-shadow: 0 5px #ffe010;
 }
 
-#header_nav {
-  overflow: hidden;
-  margin: 0px 0px;
-  padding: 0;
-  transition: 0.4s;
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  left: 0;
-  right: 0;
-  z-index: 99;
-}
-
 @media screen and (max-width: 400px) {
   .header-items__left {
     text-align: center;
@@ -698,6 +688,7 @@ hr {
   margin-top: 60px;
 }
 .shop-items__item {
+  background: #ffffff;
   padding-bottom: 15px;
 }
 .shop-items__item h3 {
