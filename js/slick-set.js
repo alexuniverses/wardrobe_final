@@ -1,6 +1,8 @@
 $('.multiple-items').slick({
     infinite: true,
-    dots: true,
+	dots: true,
+	autoplay: true,
+	arrows: false,
     slidesToShow: 6,
     slidesToScroll: 2,
     responsive: [

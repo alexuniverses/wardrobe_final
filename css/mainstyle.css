@@ -936,6 +936,10 @@ hr {
   max-width: 100px;
 }
 
+.slick-list {
+  padding-bottom: 50px;
+}
+
 .process {
   color: #ffffff;
   text-align: center;
