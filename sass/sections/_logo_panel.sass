@@ -2,6 +2,8 @@
     font-size: 24px
     display: flex
     flex-direction: row
+    a
+        color: #ffffff
     h3
         margin-right: 120px
         font-size: 18px
@@ -49,6 +51,8 @@
     height: 35px
     display: none
 @media screen and ( max-width: 400px )
+    .logo_panel
+        &__social_container
     #instagram_mobile
         display: none
         img
@@ -69,6 +73,13 @@
 @media screen and ( max-width: 872px )
     #logo_panel_btn
         display: none
+@media screen and ( min-width: 932px )
+    .logo_panel
+        .nav-link 
+            display: none
+            color: #ffffff !important
+        
+    
     
 
         

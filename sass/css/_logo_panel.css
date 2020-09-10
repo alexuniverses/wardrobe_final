@@ -3,6 +3,9 @@
   display: flex;
   flex-direction: row;
 }
+.logo_panel a {
+  color: #ffffff;
+}
 .logo_panel h3 {
   margin-right: 120px;
   font-size: 18px;
@@ -97,5 +100,11 @@
 @media screen and (max-width: 872px) {
   #logo_panel_btn {
     display: none;
+  }
+}
+@media screen and (min-width: 932px) {
+  .logo_panel .nav-link {
+    display: none;
+    color: #ffffff !important;
   }
 }

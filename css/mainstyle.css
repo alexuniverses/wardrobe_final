@@ -246,6 +246,9 @@ body .btn:focus {
   display: flex;
   flex-direction: row;
 }
+.logo_panel a {
+  color: #ffffff;
+}
 .logo_panel h3 {
   margin-right: 120px;
   font-size: 18px;
@@ -342,6 +345,12 @@ body .btn:focus {
     display: none;
   }
 }
+@media screen and (min-width: 932px) {
+  .logo_panel .nav-link {
+    display: none;
+    color: #ffffff !important;
+  }
+}
 .header {
   padding-top: 100px;
 }
@@ -392,11 +401,11 @@ body .btn:focus {
 
 #header_nav_btn {
   max-width: 185px;
-  height: 30px;
+  height: 34px;
   background: #ffeb10;
   color: #000;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 #navbar_tel_set a {
