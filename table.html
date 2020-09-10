@@ -233,7 +233,8 @@
                                     </div>
                                 </div>
                                 <h4 class="pl-2">от 1440 руб</h4>
-                                <button type="button" class="btn float-right" id="shop_item_btn">Подробнее</button>
+                                <button type="button" class="btn float-right" id="shop_item_btn" data-toggle="modal"
+                                    data-target="#shop_item_modal">Подробнее</button>
                             </div>
                         </div>
                     </div>
@@ -253,7 +254,8 @@
                                     </div>
                                 </div>
                                 <h4 class="pl-2">от 1440 руб</h4>
-                                <button type="button" class="btn float-right" id="shop_item_btn">Подробнее</button>
+                                <button type="button" class="btn float-right" id="shop_item_btn" data-toggle="modal"
+                                    data-target="#shop_item_modal">Подробнее</button>
                             </div>
                         </div>
                     </div>
@@ -273,12 +275,27 @@
                                     </div>
                                 </div>
                                 <h4 class="pl-2">от 1440 руб</h4>
-                                <button type="button" class="btn float-right" id="shop_item_btn">Подробнее</button>
+                                <button type="button" class="btn float-right" id="shop_item_btn" data-toggle="modal"
+                                    data-target="#shop_item_modal">Подробнее</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <button type="button" class="btn mx-auto" id="shop_btn">Показать больше</button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="shop_item_modal" tabindex="-1" role="dialog" aria-labelledby="Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h1>Сообщим цену и проконсультируем</h1>
+                        <img class="img-fluid" src="img/shop/43025e39fbb0bde_600x400.jpg">
+                        <input type="tel" class="form-control" placeholder="Ваш номер телефона">
+                        <button type="button" class="btn" id="header_modal_btn">Оставить заявку</button>
+                    </div>
+                </div>
             </div>
         </section>
     </a>
